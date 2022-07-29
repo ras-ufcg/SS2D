@@ -23,7 +23,7 @@ Esse projeto tem como finalidade a contrução de um time de futebol de robôs 2
 -
 
 ## 🧑‍🎓 Equipe
-| [<img src="https://avatars.githubusercontent.com/u/79481939?v=4" width=115><br><sub>Guilherme Toledo</sub>](https://github.com/drawnator) |  [<img src="https://avatars.githubusercontent.com/u/25869603?v=4" width=115><br><sub>Lucas Matos</sub>](https://github.com/TryhardCC) |  [<img src="https://avatars.githubusercontent.com/u/57972059?v=4" width=115><br><sub>Samara Cardoso</sub>](https://github.com/SamaraLimaCardoso) |
+| [<img src="https://avatars.githubusercontent.com/u/79481939?v=4" width=115><br><sub>Guilherme Toledo</sub>](https://github.com/drawnator) |  [<img src="https://avatars.githubusercontent.com/u/25869603?v=4" width=115><br><sub>Lucas Melo</sub>](https://github.com/TryhardCC) |  [<img src="https://avatars.githubusercontent.com/u/57972059?v=4" width=115><br><sub>Samara Cardoso</sub>](https://github.com/SamaraLimaCardoso) |
 | :---: | :---: | :---: |
 
 
