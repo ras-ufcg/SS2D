@@ -11,10 +11,10 @@
 | 📄[**Metodologia**](#-metodologia) | | 🕹️[**modo de controle manual**](#-controlando-um-robô) |
 | 🗓[**Planejamento**](#-planejamento) | | |
 
-## Súmario
--
--
--
+## Sumário
+- Sobre o Projeto
+- Primeiros Passos
+- Apredendo Mais
 
 ## 🚗 Oque é a SS2d?
 -
