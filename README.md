@@ -3,12 +3,13 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 ![GitHub Org's stars](https://img.shields.io/github/stars/ras-ufcg/SS2D?style=for-the-badge&logo=github)
 
-| Nosso Projeto | Primeiros Passos |Aprendendo Mais|
+
+| Nosso Projeto | primeiros passos |aprendendo mais|
 | ---------------- | ---------------- |------------- |
-| 🤖[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprender-mais) |
-| 📝[**Descrição**](#-quem-somos) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
-| 🧑‍🎓[**Equipe**](#-equipe) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) |💻[**Criando um Binário**](#-criando-um-binário) |
-| 📄[**Metodologia**](#-metodologia) | | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
+| 🤖[**SS2D**](#-competição-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprendendo-mais) |
+| 📝[**Descrição**](#-quem-somos) |📼[**Assistir um Jogo Gravado**](#-rodando-um-jogo-gravado) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
+| 🧑‍🎓[**Equipe**](#-equipe) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |💻[**Criando um Binário**](#-criando-um-binário) |
+| 📄[**Metodologia**](#-metodologia) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
 | 🗓[**Planejamento**](#-planejamento) | | |
 
 <!--- ## Sumário
@@ -48,6 +49,11 @@
 ## 🛠 Instalando o Servidor e Monitor
 - Para instalação e execução do projeto será necessário um computador com o sistema operacional Ubuntu 16.04 ou posterior.
 - Ter instalado o [rcssserver](https://github.com/rcsoccersim/rcssserver) e o [rcssmonitor](https://github.com/rcsoccersim/rcssmonitor).
+-
+
+## 📼 Rodando um Jogo Gravado
+-
+-
 -
 
 ## 🛠 Instalando as Equipes
