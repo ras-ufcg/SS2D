@@ -60,7 +60,7 @@
 -
 -
 
-## 📖 Aprendeendo Mais
+## 📖 Aprendendo Mais
 -
 -
 -
