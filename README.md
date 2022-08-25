@@ -3,7 +3,7 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 ![GitHub Org's stars](https://img.shields.io/github/stars/ras-ufcg/SS2D?style=for-the-badge&logo=github)
 
-| Nosso Projeto | primeiros passos |aprendendo mais|
+| Nosso Projeto | Primeiros Passos |Aprendendo Mais|
 | ---------------- | ---------------- |------------- |
 | 🤖[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprender-mais) |
 | 📝[**Descrição**](#-quem-somos) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
