@@ -5,7 +5,7 @@
 
 | Nosso Projeto | primeiros passos |aprendendo mais|
 | ---------------- | ---------------- |------------- |
-| 🚗[**SS2D**](#-ss2d) |🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material extra**](#-aprender-mais) |
+| 🚗[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material extra**](#-aprender-mais) |
 | 📝[**Descrição**](#-quem-somos) |🛠[**Instalação de equipes**](#-instalando-as-equipes) |🗂️ [**Acesso ao projeto**](#-acesso-ao-projeto) |
 | 🧑‍🎓[**Equipe**](#-equipe) |🎮[**Rodando o primeiro jogo**](#-primeira-partida) |💻[**Criando um binário**](#-criando-um-binário) |
 | 📄[**Metodologia**](#-metodologia) | | 🕹️[**modo de controle manual**](#-controlando-um-robô) |
@@ -13,10 +13,21 @@
 
 ## Sumário
 - Sobre o Projeto
+    - 🚗[**SS2D**](#-oque-é-a-ss2d) 
+    - 📝[**Descrição**](#-quem-somos)
+    - 🧑‍🎓[**Equipe**](#-equipe)
+    - 📄[**Metodologia**](#-metodologia)
+    - 🗓[**Planejamento**](#-planejamento) 
 - Primeiros Passos
+    - 🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor)
+    - 🛠[**Instalação de equipes**](#-instalando-as-equipes)
+    - 🎮[**Rodando o primeiro jogo**](#-primeira-partida) 
 - Apredendo Mais
-
-## 🚗 SS2d
+    - 📖[**Material extra**](#-aprender-mais)
+    - 🗂️ [**Acesso ao projeto**](#-acesso-ao-projeto)
+    - 💻[**Criando um binário**](#-criando-um-binário)
+    - 🕹️[**modo de controle manual**](#-controlando-um-robô)
+## 🚗 Oque é a SS2d?
 -
 -
 -
