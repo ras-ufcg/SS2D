@@ -13,7 +13,7 @@
 
 ## Sumário
 - Sobre o Projeto
-    - 🚗[**SS2D**](#-oque-é-a-ss2d) 
+    - 🤖[**SS2D**](#-Competição-SS2D) 
     - 📝[**Descrição**](#-quem-somos)
     - 🧑‍🎓[**Equipe**](#-equipe)
     - 📄[**Metodologia**](#-metodologia)
@@ -27,7 +27,7 @@
     - 🗂️ [**Acesso ao projeto**](#-acesso-ao-projeto)
     - 💻[**Criando um binário**](#-criando-um-binário)
     - 🕹️[**modo de controle manual**](#-controlando-um-robô)
-## 🚗 Oque é a SS2d?
+## 🤖 Competição SS2D?
 -
 -
 -
