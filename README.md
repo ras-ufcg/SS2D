@@ -12,7 +12,7 @@
 | 📄[**Metodologia**](#-metodologia) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
 | 🗓[**Planejamento**](#-planejamento) | | |
 
-## Sumário
+<!---## Sumário
 - Sobre o Projeto
     - 🤖[**SS2D**](#-Competição-SS2D) 
     - 📝[**Descrição**](#-quem-somos)
@@ -27,7 +27,7 @@
     - 📖[**Material Extra**](#-aprender-mais)
     - 🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto)
     - 💻[**Criando um Binário**](#-criando-um-binário)
-    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) 
+    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) -->
 ## 🤖 Competição SS2D?
 -
 -
