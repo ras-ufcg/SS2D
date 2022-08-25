@@ -5,13 +5,13 @@
 
 | Nosso Projeto | primeiros passos |aprendendo mais|
 | ---------------- | ---------------- |------------- |
-| 🤖[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprender-mais) |
+| 🤖[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprender-mais) |
 | 📝[**Descrição**](#-quem-somos) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
 | 🧑‍🎓[**Equipe**](#-equipe) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) |💻[**Criando um Binário**](#-criando-um-binário) |
 | 📄[**Metodologia**](#-metodologia) | | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
 | 🗓[**Planejamento**](#-planejamento) | | |
 
-## Sumário
+<!--- ## Sumário
 - Sobre o Projeto
     - 🤖[**SS2D**](#-Competição-SS2D) 
     - 📝[**Descrição**](#-quem-somos)
@@ -26,7 +26,7 @@
     - 📖[**Material Extra**](#-aprender-mais)
     - 🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto)
     - 💻[**Criando um Binário**](#-criando-um-binário)
-    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô)
+    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) -->
 ## 🤖 Competição SS2D?
 -
 -
