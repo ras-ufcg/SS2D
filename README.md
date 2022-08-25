@@ -5,7 +5,7 @@
 
 | Nosso Projeto | primeiros passos |aprendendo mais|
 | ---------------- | ---------------- |------------- |
-| 🚗[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material extra**](#-aprender-mais) |
+| 🤖[**SS2D**](#-oque-é-a-ss2d) |🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material extra**](#-aprender-mais) |
 | 📝[**Descrição**](#-quem-somos) |🛠[**Instalação de equipes**](#-instalando-as-equipes) |🗂️ [**Acesso ao projeto**](#-acesso-ao-projeto) |
 | 🧑‍🎓[**Equipe**](#-equipe) |🎮[**Rodando o primeiro jogo**](#-primeira-partida) |💻[**Criando um binário**](#-criando-um-binário) |
 | 📄[**Metodologia**](#-metodologia) | | 🕹️[**modo de controle manual**](#-controlando-um-robô) |
