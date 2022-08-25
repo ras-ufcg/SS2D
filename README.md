@@ -19,14 +19,14 @@
     - 📄[**Metodologia**](#-metodologia)
     - 🗓[**Planejamento**](#-planejamento) 
 - Primeiros Passos
-    - 🛠[**Instalação server+monitor**](#-instalando-o-servidor-e-monitor)
-    - 🛠[**Instalação de equipes**](#-instalando-as-equipes)
-    - 🎮[**Rodando o primeiro jogo**](#-primeira-partida) 
+    - 🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor)
+    - 🛠[**Instalação de Equipes**](#-instalando-as-equipes)
+    - 🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) 
 - Apredendo Mais
-    - 📖[**Material extra**](#-aprender-mais)
-    - 🗂️ [**Acesso ao projeto**](#-acesso-ao-projeto)
-    - 💻[**Criando um binário**](#-criando-um-binário)
-    - 🕹️[**modo de controle manual**](#-controlando-um-robô)
+    - 📖[**Material Extra**](#-aprender-mais)
+    - 🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto)
+    - 💻[**Criando um Binário**](#-criando-um-binário)
+    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô)
 ## 🤖 Competição SS2D?
 -
 -
@@ -45,37 +45,37 @@
 -
 -
 
-## 🛠 Instalando o servidor e monitor
+## 🛠 Instalando o Servidor e Monitor
 - Para instalação e execução do projeto será necessário um computador com o sistema operacional Ubuntu 16.04 ou posterior.
 - Ter instalado o [rcssserver](https://github.com/rcsoccersim/rcssserver) e o [rcssmonitor](https://github.com/rcsoccersim/rcssmonitor).
 -
 
-## 🛠 Instalando as equipes
+## 🛠 Instalando as Equipes
 -
 -
 - 
 
-## 🎮 Primeira partida
+## 🎮 Primeira Partida
 -
 -
 -
 
-## 📖 Aprender mais
+## 📖 Aprendeendo Mais
 -
 -
 -
 
-## 🗂 Acesso ao projeto
+## 🗂 Acesso ao Projeto
 -
 -
 -
 
-## ‍💻 Criando um binário
+## ‍💻 Criando um Binário
 -
 -
 -
 
-## 🕹 controlando um robô
+## 🕹 Controlando um Robô
 -
 -
 -
