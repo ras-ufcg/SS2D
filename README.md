@@ -160,20 +160,16 @@ inteligencia artificial:
 -
 
 ## ‍💻 Criando um Binário
-Para fazer um binario primeiro faça uma copia da pasta src do time por segurança, ela será transformada no binario, o "binario" é como se chama a pasta com o minimo de arquivos para fazer um time funcionar.
+- Para fazer um binário crie, em primeiro lugar, uma cópia da pasta _src_ do seu time. Essa cópia será transformada no "Binário", ou seja, a pasta com o mínimo necessário de arquivos para fazer um time funcionar. 
+- Renomeie apasta cópia que você criou para o nome de seu time. Dentro dela, acesse o arquivo _start.sh_ e mude a variável _teamname_ na linha 26 para o nome desejado do time. Isso fará com que o servidor trate o seu time pelo nome escolhido. 
+- Em seguida, você pode deletar todos os arquivos com quaisquer dessas terminações: _.o .h .cpp .in .am_. Para facilitar use o seguinte comando shell no terminal, dentro da pasta:
 
-Nela você irá acessar o arquivo start.sh e mudar a variavel teamname na linha 26 para o nome desejado do time, isso fará com que o servidor trate o seu time pelo nome escolhido aproveite e renomeie essa pasta de src para o nome da sua equipe
+```
+rm *.o *.h *.cpp *.in *.am
+```
 
-em seguida você pode deletar todos os arquivos com terminação .o .h .cpp .in .am, para facilitar use rm *.o *.h *.cpp *.in *.am
-
-por via de regra apenas esses arquivos precisam permanecer alem das pastas:
-- coach.conf
-- player.conf
-- sample_coach
-- sample_player
-- start.sh
-
-e com isso o seu binario está pronto, quando quiser colocar o time e só chamar a função .\start.sh
+- Por via de regra, além das pastas, apenas os arquivos _coach.conf, player.conf, sample_coach, sample_player_ e _start.sh_ precisam permanecer no seu binário.
+- Com isso, o seu binário está pronto. Para inserir o time no jogo é só usar a função _.\\start.sh_ .
 
 ## 🕹 Controlando um Robô
 -
