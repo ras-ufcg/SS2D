@@ -161,7 +161,7 @@ inteligencia artificial:
 
 ## ‍💻 Criando um Binário
 - Para fazer um binário crie, em primeiro lugar, uma cópia da pasta _src_ do seu time. Essa cópia será transformada no "Binário", ou seja, a pasta com o mínimo necessário de arquivos para fazer um time funcionar. 
-- Renomeie apasta cópia que você criou para o nome de seu time. Dentro dela, acesse o arquivo _start.sh_ e mude a variável _teamname_ na linha 26 para o nome desejado do time. Isso fará com que o servidor trate o seu time pelo nome escolhido. 
+- Renomeie a pasta cópia que você criou para o nome de seu time. Dentro dela, acesse o arquivo _start.sh_ e mude a variável _teamname_ na linha 26 para o nome desejado do time. Isso fará com que o servidor trate o seu time pelo nome escolhido. 
 - Em seguida, você pode deletar todos os arquivos com quaisquer dessas terminações: _.o .h .cpp .in .am_. Para facilitar use o seguinte comando shell no terminal, dentro da pasta:
 
 ```
