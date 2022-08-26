@@ -46,8 +46,6 @@
 
 ## 🗓 Planejamento
 -
--
--
 | # | Atividade | Status |
 | ---------------- | ---------------- |------------- |
 | 1 | Compreender a Competição SS2D - Leitura de TDP's |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
