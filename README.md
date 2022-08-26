@@ -48,11 +48,12 @@
 -
 | # | Atividade | Status |
 | ---------------- | ---------------- |------------- |
-| 1 | Compreender a Competição SS2D - Leitura de TDP's |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
-| 2 | Instalção do Servidor e do Monitor |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
-| 3 | Instalação dos Times Base e Rodar Partidas |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
-| 4 | Realizar o controle Manual de um Dummy |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
-| 5 | Criação de um Time Com Apenas um Cliente |![Badge Andamento](https://img.shields.io/static/v1?label=&message=Andamento&color=<red>)|
+| 1 | Compreender a Competição SS2D - Leitura de TDP's |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
+| 2 | Instalção do Servidor e do Monitor |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
+| 3 | Instalação dos Times Base e Rodar Partidas |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
+| 4 | Realizar o controle Manual de um Dummy |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
+| 5 | Criação de um Time Com Apenas um Cliente | <img alt="Em Andamento" src="https://img.shields.io/badge/-Em%20andamento-orange">|
+| 6 | Criação de uma Estratégia Própria | <img alt="Não Iniciado" src="https://img.shields.io/badge/-Não%20iniciado-red">|
 
 
 ## 🛠 Instalando o Servidor e Monitor
