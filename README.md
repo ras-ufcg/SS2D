@@ -63,34 +63,33 @@ sudo apt install build-essential automake autoconf libtool flex bison libboost-a
 sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
 ```
 
-Servidor:
+- Servidor:
 
-antes de continuar é recomendado criar uma pasta /servidor/ onde você salvará tanto o servidor quanto o monitor dentro
+    antes de continuar é recomendado criar uma pasta /servidor/ onde você salvará tanto o servidor quanto o monitor dentro
 
-no github do servidor https://github.com/rcsoccersim/rcssserver/releases baixe a versão mais recente do rcssserver-x.x.x.tar.gz substituindo "x" pelo numero da versão
-e rode os seguintes códigos substituindo o nome do arquivo para o correto:
-```
-tar xzvfp rcssserver-x.x.x.tar.gz
-cd rcssserver-x.x.x
-./configure
-make
-```
+    no github do servidor https://github.com/rcsoccersim/rcssserver/releases baixe a versão mais recente do rcssserver-x.x.x.tar.gz substituindo "x" pelo numero da    versão e rode os seguintes códigos substituindo o nome do arquivo para o correto:
+    ```
+    tar xzvfp rcssserver-x.x.x.tar.gz
+    cd rcssserver-x.x.x
+    ./configure
+    make
+    ```
 
-agora quando você quiser pode rodar o binario ./rcssserver dentro do /src/ do servidor para fazer o servidor funcionar, porem mesmo rodando, não vai ser possivel ver oque está acontecendo pois o monitor ainda não está instalado
+    agora quando você quiser pode rodar o binario ./rcssserver dentro do /src/ do servidor para fazer o servidor funcionar, porem mesmo rodando, não vai ser possivel ver oque está acontecendo pois o monitor ainda não está instalado
 
-Monitor:
+- Monitor:
 
-dentro da pasta /servidor/ mencionada a cima baixe a versão mais recente do monitor https://github.com/rcsoccersim/rcssmonitor/releases e rode os seguintes códigos substituindo o nome do arquivo pelo nome correto:
-```
-tar xzvfp rcssmonitor-x.x.x.tar.gz
-cd rcssmonitor-x.x.x
-./configure
-make
-```
+    dentro da pasta /servidor/ mencionada a cima baixe a versão mais recente do monitor https://github.com/rcsoccersim/rcssmonitor/releases e rode os seguintes códigos substituindo o nome do arquivo pelo nome correto:
+    ```
+    tar xzvfp rcssmonitor-x.x.x.tar.gz
+    cd rcssmonitor-x.x.x
+    ./configure
+    make
+    ```
 
-agora você pode rodar o binario ./rcssmonitor dentro do /src/ do monitor para fazer o monitor funcionar.
+    agora você pode rodar o binario ./rcssmonitor dentro do /src/ do monitor para fazer o monitor funcionar.
 
-lembre-se de rodar o servidor sempre antes do monitor. você saberá que tudo está funcionando se os jogadores aparecerem no monitor na parte superior logo fora da quadra como na imagem:
+    lembre-se de rodar o servidor sempre antes do monitor. você saberá que tudo está funcionando se os jogadores aparecerem no monitor na parte superior logo fora da quadra como na imagem:
 
 
 
