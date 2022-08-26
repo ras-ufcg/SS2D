@@ -4,7 +4,7 @@
 ![GitHub Org's stars](https://img.shields.io/github/stars/ras-ufcg/SS2D?style=for-the-badge&logo=github)
 
 
-| Nosso Projeto | primeiros passos |aprendendo mais|
+| Nosso Projeto | Primeiros Passos |Aprendendo Mais|
 | ---------------- | ---------------- |------------- |
 | 🤖[**SS2D**](#-competição-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprendendo-mais) |
 | 📝[**Descrição**](#-quem-somos) |📼[**Assistir um Jogo Gravado**](#-rodando-um-jogo-gravado) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
@@ -48,6 +48,14 @@
 -
 -
 -
+| # | Atividade | Status |
+| ---------------- | ---------------- |------------- |
+| 1 | Compreender a Competição SS2D - Leitura de TDP's |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
+| 2 | Instalção do Servidor e do Monitor |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
+| 3 | Instalação dos Times Base e Rodar Partidas |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
+| 4 | Realizar o controle Manual de um Dummy |![Badge Finalizado](https://img.shields.io/static/v1?label=&message=Finalizado&color=<green>)|
+| 5 | Criação de um Time Com Apenas um Cliente |![Badge Andamento](https://img.shields.io/static/v1?label=&message=Andamento&color=<red>)|
+
 
 ## 🛠 Instalando o Servidor e Monitor
 - Para instalação e execução do projeto será necessário um computador com o sistema operacional Ubuntu 16.04 ou posterior.
