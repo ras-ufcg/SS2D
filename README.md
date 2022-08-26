@@ -71,7 +71,6 @@
     - [Cyrus Base 2D](https://github.com/Cyrus2D/Cyrus2DBase)
 - Para a instalação dos times bases será necessário ter as seguintes bibliotecas:
     - Boost 1.38 ou posterior https://www.boost.org/
-        1. No caso do Ubuntu 16.04 ou posterior, execute os seguintes comandos para instalar um ambiente de desenvolvimento básico:
         ```
         sudo apt update
         sudo apt install build-essential libboost-all-dev
