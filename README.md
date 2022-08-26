@@ -29,9 +29,12 @@
     - 💻[**Criando um Binário**](#-criando-um-binário)
     - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) -->
 ## 🤖 Competição SS2D?
--
--
--
+- A Robocup é uma competição anual internacional de robótica estabelecida em 1996, que objetiva promover pesquisas de robótica e de inteligência artificial através de torneios de várias modalidades.
+- A SS2D é a modalidade da Robocup que aborda o futebol simulado por computador num espaço 2D. 
+- Cada time tem 11 jogadores virtuais que "pensam" separadamente e tomam decisões com base nas informações que conseguem capturar do seu ambiente. 
+- Os jogadores têm atributos como velocidade máxima, precisão de chute, tamanho e energia. Esses atributos são escolhidos aleatoriamente pelo servidor em cada partida. 
+- Os algoritmos e lógicas que cada jogador usa para decidir o que ele vai fazer devem ser criados pela equipe do time. Porém, é permitido e recomendado que equipes novas utilizem o código de outras equipes como base.
+- As regras das partidas do SS2D são extremamente parecidas com as que conhecemos no futebol: Existem faltas, impedimentos, tiros de meta, cartões, entre outros. Ganha a partida o time que fizer mais gols.
 ## 📝 Quem somos?
 - Esse projeto tem como finalidade a contrução de um time de futebol de robôs 2D para competições. 
 -
