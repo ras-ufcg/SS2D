@@ -56,9 +56,43 @@
 
 
 ## 🛠 Instalando o Servidor e Monitor
-- Para instalação e execução do projeto será necessário um computador com o sistema operacional Ubuntu 16.04 ou posterior.
-- Ter instalado o [rcssserver](https://github.com/rcsoccersim/rcssserver) e o [rcssmonitor](https://github.com/rcsoccersim/rcssmonitor).
--
+- recomenda-se usar ubuntu 16.04 ou posterior para rodar os programas pois é possivel instalar todos os requerimentos com os seguintes comandos:
+```
+sudo apt update
+sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
+sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
+```
+
+Servidor:
+
+antes de continuar é recomendado criar uma pasta /servidor/ onde você salvará tanto o servidor quanto o monitor dentro
+
+no github do servidor https://github.com/rcsoccersim/rcssserver/releases baixe a versão mais recente do rcssserver-x.x.x.tar.gz substituindo "x" pelo numero da versão
+e rode os seguintes códigos substituindo o nome do arquivo para o correto:
+```
+tar xzvfp rcssserver-x.x.x.tar.gz
+cd rcssserver-x.x.x
+./configure
+make
+```
+
+agora quando você quiser pode rodar o binario ./rcssserver dentro do /src/ do servidor para fazer o servidor funcionar, porem mesmo rodando, não vai ser possivel ver oque está acontecendo pois o monitor ainda não está instalado
+
+Monitor:
+
+dentro da pasta /servidor/ mencionada a cima baixe a versão mais recente do monitor https://github.com/rcsoccersim/rcssmonitor/releases e rode os seguintes códigos substituindo o nome do arquivo pelo nome correto:
+```
+tar xzvfp rcssmonitor-x.x.x.tar.gz
+cd rcssmonitor-x.x.x
+./configure
+make
+```
+
+agora você pode rodar o binario ./rcssmonitor dentro do /src/ do monitor para fazer o monitor funcionar.
+
+lembre-se de rodar o servidor sempre antes do monitor. você saberá que tudo está funcionando se os jogadores aparecerem no monitor na parte superior logo fora da quadra como na imagem:
+
+
 
 ## 📼 Rodando um Jogo Gravado
 -
@@ -79,14 +113,47 @@
     - EING ALGUMA COISA CHECAR NOME E COMANDO
 
 ## 🎮 Primeira Partida
--
--
--
+depois que tudo estiver instalado e você quiser assistir a primeira partida você deve seguir essa sequencia de passos para simular seu primeiro jogo:
+
+- abrir 4 janelas de terminal
+- no 1° terminal entrar na pasta /servidor/rcssserver-x.x.x/src/ e rodar ./rcssserver
+- no 2° terminal entrar na pasta /servidor/rcssmonitor-x.x.x/src/ e rodar ./rcssmonitor
+- no 3° terminal rodar o ./start.sh do primeiro time
+- no 4° terminal rodar o ./start.sh do segundo time
+- dentro da janela que o monitor abriu clicar em referee e depois kickoff (ou ctrl + k)
+
+caso algo der errado lembrese de esperar alguns segundos entre cada passo 
 
 ## 📖 Aprendendo Mais
--
--
--
+softwares oficiais:
+- https://github.com/rcsoccersim/rcssserver
+- https://github.com/rcsoccersim/rcssmonitor
+
+wikipedia:
+- https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League
+
+Replay:
+- https://archive.robocup.info/Soccer/Simulation/2D/replays/
+
+TDP:
+- https://tdp.robocup.org/tdp/
+- http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/
+
+Docs:
+- https://rcsoccersim.readthedocs.io/en/latest/
+- https://github.com/herodrigues/robocup2d-tutorial
+- https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw
+
+Equipes:
+- https://robocin.com.br/publicacoes.html
+- https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome
+
+Base team:
+- https://github.com/helios-base/helios-base
+- http://www.prokopenko.net/gliders2d.html
+
+inteligencia artificial:
+- https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf
 
 ## 🗂 Acesso ao Projeto
 -
@@ -94,9 +161,20 @@
 -
 
 ## ‍💻 Criando um Binário
--
--
--
+Para fazer um binario primeiro faça uma copia da pasta src do time por segurança, ela será transformada no binario, o "binario" é como se chama a pasta com o minimo de arquivos para fazer um time funcionar.
+
+Nela você irá acessar o arquivo start.sh e mudar a variavel teamname na linha 26 para o nome desejado do time, isso fará com que o servidor trate o seu time pelo nome escolhido aproveite e renomeie essa pasta de src para o nome da sua equipe
+
+em seguida você pode deletar todos os arquivos com terminação .o .h .cpp .in .am, para facilitar use rm *.o *.h *.cpp *.in *.am
+
+por via de regra apenas esses arquivos precisam permanecer alem das pastas:
+- coach.conf
+- player.conf
+- sample_coach
+- sample_player
+- start.sh
+
+e com isso o seu binario está pronto, quando quiser colocar o time e só chamar a função .\start.sh
 
 ## 🕹 Controlando um Robô
 -
