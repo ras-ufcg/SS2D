@@ -45,7 +45,10 @@
 -
 
 ## 🗓 Planejamento
+
+
 -
+
 | # | Atividade | Status |
 | ---------------- | ---------------- |------------- |
 | 1 | Compreender a Competição SS2D - Leitura de TDP's |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
@@ -54,7 +57,7 @@
 | 4 | Realizar o controle Manual de um Dummy |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
 | 5 | Criação de um Time Com Apenas um Cliente | <img alt="Em Andamento" src="https://img.shields.io/badge/-Em%20andamento-orange">|
 | 6 | Criação de uma Estratégia Própria | <img alt="Não Iniciado" src="https://img.shields.io/badge/-Não%20iniciado-red">|
-
+    
 
 ## 🛠 Instalando o Servidor e Monitor
 - Recomenda-se usar ubuntu 16.04 ou posterior para rodar os programas pois é possivel instalar todos os requerimentos com os seguintes comandos:
@@ -115,6 +118,19 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
         sudo apt-get update
         sudo apt-get install libeigen3-dev
         ```
+- Para finalizar a instalação da equipe [Cyrus Base 2D](https://github.com/Cyrus2D/Cyrus2DBase) se faz necessário a inclusão de uma pasta chamada [CppDNN](https://github.com/Cyrus2D/CppDNN) na pasta clonada do git da equipe. Da seguinte forma:
+<p align="center">
+  <img src="https://ik.imagekit.io/6774657672/1_oLAH42qxh.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728387" width="900" >
+</p>
+- Dentro da pasta CppDNN deverá ter os seguintes arquivos:
+<p align="center">
+  <img src="https://ik.imagekit.io/6774657672/2_2VeOa8ytJ.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728387" width="900" >
+</p>
+- Dentro da pasta CppDNN/src deverá ter os seguintes arquivos:
+<p align="center">
+  <img src="https://ik.imagekit.io/6774657672/3_BbTvKLbga.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728386" width="900" >
+</p>
+
 ## 🎮 Primeira Partida
 depois que tudo estiver instalado e você quiser assistir a primeira partida você deve seguir essa sequencia de passos para simular seu primeiro jogo:
 
