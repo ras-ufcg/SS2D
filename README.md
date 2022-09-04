@@ -110,8 +110,11 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
         sudo apt install build-essential libboost-all-dev
         ```
     - A última librcsc https://github.com/helios-base/librcsc
-    - EING ALGUMA COISA CHECAR NOME E COMANDO
-
+    - Libeigen3-dev
+        ```
+        sudo apt-get update
+        sudo apt-get install libeigen3-dev
+        ```
 ## 🎮 Primeira Partida
 depois que tudo estiver instalado e você quiser assistir a primeira partida você deve seguir essa sequencia de passos para simular seu primeiro jogo:
 
