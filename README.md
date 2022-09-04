@@ -131,6 +131,15 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
   <img src="https://ik.imagekit.io/6774657672/3_BbTvKLbga.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728386" width="900" >
 </p>
 
+- Finalizado as instalações das dependências das equipes, deve-se agora seguir o seguinte procedimento para cada umas das equipes:
+
+    - Para construir binários, execute comandos da raiz do diretório de origem:
+    ```
+    ./bootstrap
+    ./configure
+    make
+    ```
+
 ## 🎮 Primeira Partida
 depois que tudo estiver instalado e você quiser assistir a primeira partida você deve seguir essa sequencia de passos para simular seu primeiro jogo:
 
@@ -175,9 +184,7 @@ inteligencia artificial:
 - https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf
 
 ## 🗂 Acesso ao Projeto
--
--
--
+- Para ter acesso ao projeto vá na pasta disponibilizada Equipe-RAS, caso o que procura não esteja presente neste Git, entre em contanto com a equipe. Estamos a sua disposição.
 
 ## ‍💻 Criando um Binário
 - Para fazer um binário crie, em primeiro lugar, uma cópia da pasta _src_ do seu time. Essa cópia será transformada no "Binário", ou seja, a pasta com o mínimo necessário de arquivos para fazer um time funcionar. 
