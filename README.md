@@ -46,8 +46,11 @@
 
 ## 🗓 Planejamento
 
+- No primeiro instante foi realizada uma introdução geral acerca da competição e das equipes. Para isso foi feito o estudo e a leitura dos [TDP's](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/) disponibilizados pelas equipes tanto internacionais como nacionais. Neste estudo foi possível captar aspectos importantes da competição, como por exemplo seu funcionamento, como as equipes e como o jogo funciona. Também com a leitura foi possível perceber estratégias de algumas equipes, como por exemplo o uso de inteligência artificial, o uso de diferentes marcações e etc. Além dos TDP’s disponibilizados pelas equipes, também foi e está sendo utilizado o manual, [The RoboCup Soccer Simulator Users Manual](https://rcsoccersim.readthedocs.io/en/latest/).
+- No momento a equipe busca ter os primeiros contatos com os softwares, as equipes bases e criar um time com apenas um jogador, para assim poder compreender a dinâmica do jogo na prática e poder criar um time que possa participar de competiçoẽs.
 
--
+
+**Status do projeto**
 
 | # | Atividade | Status |
 | ---------------- | ---------------- |------------- |
@@ -134,11 +137,11 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
 - Finalizado as instalações das dependências das equipes, deve-se agora seguir o seguinte procedimento para cada umas das equipes:
 
     - Para construir binários, execute comandos da raiz do diretório de origem:
-    ```
-    ./bootstrap
-    ./configure
-    make
-    ```
+        ```
+        ./bootstrap
+        ./configure
+        make
+        ```
 
 ## 🎮 Primeira Partida
 depois que tudo estiver instalado e você quiser assistir a primeira partida você deve seguir essa sequencia de passos para simular seu primeiro jogo:
