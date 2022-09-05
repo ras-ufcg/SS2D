@@ -122,14 +122,19 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
         sudo apt-get install libeigen3-dev
         ```
 - Para finalizar a instalação da equipe [Cyrus Base 2D](https://github.com/Cyrus2D/Cyrus2DBase) se faz necessário a inclusão de uma pasta chamada [CppDNN](https://github.com/Cyrus2D/CppDNN) na pasta clonada do git da equipe. Da seguinte forma:
+
 <p align="center">
   <img src="https://ik.imagekit.io/6774657672/1_oLAH42qxh.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728387" width="900" >
 </p>
+
 - Dentro da pasta CppDNN deverá ter os seguintes arquivos:
+
 <p align="center">
   <img src="https://ik.imagekit.io/6774657672/2_2VeOa8ytJ.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728387" width="900" >
 </p>
+
 - Dentro da pasta CppDNN/src deverá ter os seguintes arquivos:
+
 <p align="center">
   <img src="https://ik.imagekit.io/6774657672/3_BbTvKLbga.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1662309728386" width="900" >
 </p>
