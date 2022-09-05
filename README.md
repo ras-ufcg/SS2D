@@ -212,9 +212,16 @@ rm *.o *.h *.cpp *.in *.am
 ```
 rcsoccersim
 ```
+- Para iniciar o cliente de amostra, digite ./rcssclient ou rcssclient. Em seguida, digite (init sample). Isso conectará o cliente de amostra ao servidor. Você pode então digitar o comando do cliente para mover o cliente pelo campo. Você também precisará de um monitor para poder ver o que está acontecendo no campo.
 
--
--
+```
+./rcssclient
+```
+ou 
+
+```
+rcssclient > /dev/null 2>&1
+```
 
 ## 🧑‍🎓 Equipe
 | [<img src="https://avatars.githubusercontent.com/u/79481939?v=4" width=115><br><sub>Guilherme Toledo</sub>](https://github.com/drawnator) |  [<img src="https://avatars.githubusercontent.com/u/25869603?v=4" width=115><br><sub>Lucas Melo</sub>](https://github.com/TryhardCC) |  [<img src="https://avatars.githubusercontent.com/u/57972059?v=4" width=115><br><sub>Samara Cardoso</sub>](https://github.com/SamaraLimaCardoso) |
