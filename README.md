@@ -164,8 +164,8 @@ Espere alguns segundos entre cada passo para diminuir a chance de erros.
 
 ## 📖 Aprendendo Mais
 Softwares oficiais:
-	[Servidor](https://github.com/rcsoccersim/rcssserver)
-	[Monitor](https://github.com/rcsoccersim/rcssmonitor)
+- [Servidor](https://github.com/rcsoccersim/rcssserver)
+- [Monitor](https://github.com/rcsoccersim/rcssmonitor)
 
 [Site oficial](https://robocup.org/leagues/23)
 [Página da Wikipedia](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League)
@@ -173,25 +173,25 @@ Softwares oficiais:
 [Arquivo dos Replays](https://archive.robocup.info/Soccer/Simulation/2D/replays/)
 
 TDPs:
-	[tdp.robocup](https://tdp.robocup.org/tdp/)
-	[Arquivo de TDPs](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/)
+- [tdp.robocup](https://tdp.robocup.org/tdp/)
+- [Arquivo de TDPs](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/)
 
 Tutoriais:
-	[Documentação Oficial](https://rcsoccersim.readthedocs.io/en/latest/)
-	[Tutorial não-oficial](https://github.com/herodrigues/robocup2d-tutorial)
-	[Tutorial de como fazer o binário do time](https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw)
+- [Documentação Oficial](https://rcsoccersim.readthedocs.io/en/latest/)
+- [Tutorial não-oficial](https://github.com/herodrigues/robocup2d-tutorial)
+- [Tutorial de como fazer o binário do time](https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw)
 
 Equipes:
-	[RoboCIn](https://robocin.com.br/publicacoes.html)
-	[ITAndroids](https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome)
+- [RoboCIn](https://robocin.com.br/publicacoes.html)
+- [ITAndroids](https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome)
 
 Times base:
-	[HELIOS](https://github.com/helios-base/helios-base)
-	[CYRUS](https://github.com/Cyrus2D/Cyrus2DBase)
-	[Gliders](http://www.prokopenko.net/gliders2d.html)
+- [HELIOS](https://github.com/helios-base/helios-base)
+- [CYRUS](https://github.com/Cyrus2D/Cyrus2DBase)
+- [Gliders](http://www.prokopenko.net/gliders2d.html)
 
 Leituras sobre Inteligência Artificial:
-	- [Análise sobre aprendizado de reforço na SS2D](https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf)
+- [Análise sobre aprendizado de reforço na SS2D](https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf)
 
 ## 🗂 Acesso ao Projeto
 - Para ter acesso ao projeto vá na pasta disponibilizada Equipe-RAS. Caso o que procura não esteja presente neste Git, entre em contato com a equipe. Estamos à sua disposição.
