@@ -1,3 +1,4 @@
+
 <h1 align="center"> Competição SS2D </h1>
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
@@ -7,15 +8,14 @@
 | Nosso Projeto | Primeiros Passos |Aprendendo Mais|
 | ---------------- | ---------------- |------------- |
 | 🤖[**SS2D**](#-competição-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprendendo-mais) |
-| 📝[**Descrição**](#-quem-somos) |📼[**Assistir um Jogo Gravado**](#-rodando-um-jogo-gravado) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
-| 🧑‍🎓[**Equipe**](#-equipe) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |💻[**Criando um Binário**](#-criando-um-binário) |
-| 📄[**Metodologia**](#-metodologia) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
-| 🗓[**Planejamento**](#-planejamento) | | |
+| 🧑‍🎓[**Equipe**](#-equipe) |📼[**Assistir um Jogo Gravado**](#-rodando-um-jogo-gravado) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
+| 📄[**Metodologia**](#-metodologia) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |💻[**Criando um Binário**](#-criando-um-binário) |
+| 🗓[**Planejamento**](#-planejamento) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
+
 
 <!---## Sumário
 - Sobre o Projeto
     - 🤖[**SS2D**](#-Competição-SS2D) 
-    - 📝[**Descrição**](#-quem-somos)
     - 🧑‍🎓[**Equipe**](#-equipe)
     - 📄[**Metodologia**](#-metodologia)
     - 🗓[**Planejamento**](#-planejamento) 
@@ -30,19 +30,16 @@
     - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) -->
 ## 🤖 Competição SS2D?
 - A Robocup é uma competição anual internacional de robótica estabelecida em 1996, que objetiva promover pesquisas de robótica e de inteligência artificial através de torneios de várias modalidades.
-- A SS2D é a modalidade da Robocup que aborda o futebol simulado por computador num espaço 2D. 
+- A [SS2D](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League) é a modalidade da Robocup que aborda o futebol simulado por computador num espaço 2D. 
 - Cada time tem 11 jogadores virtuais que "pensam" separadamente e tomam decisões com base nas informações que conseguem capturar do seu ambiente. 
 - Os jogadores têm atributos como velocidade máxima, precisão de chute, tamanho e energia. Esses atributos são escolhidos aleatoriamente pelo servidor em cada partida. 
 - Os algoritmos e lógicas que cada jogador usa para decidir o que ele vai fazer devem ser criados pela equipe do time. Porém, é permitido e recomendado que equipes novas utilizem o código de outras equipes como base.
 - As regras das partidas do SS2D são extremamente parecidas com as que conhecemos no futebol: Existem faltas, impedimentos, tiros de meta, cartões, entre outros. Ganha a partida o time que fizer mais gols.
-## 📝 Quem somos?
-- Esse projeto tem como finalidade a contrução de um time de futebol de robôs 2D para competições. 
--
--
+
 ## 📄 Metodologia
--
--
--
+Para uma melhor divisão das tarefas, o projeto pode ser dividido em duas áreas de foco:
+- Microdinâmica - Responsável por decisões de baixo nível, pelo desenvolvimento das heurísticas, inteligência artificial e tomada de decisões de cada um dos jogadores. Área mais focada em detalhes de controle, como: Dribles, Fazer o robô chutar com a força certa ao fazer o passe, interceptação, ETC.
+- Macrodinâmica - Responsável por decisões de alto nível, pelo desenvolvimento de estratégias, formações e modo de jogo geral do time. A área engloba: Comparação e escolha de formações a cada ponto do jogo, jogadas "ensaiadas", economia de energia, ETC.
 
 ## 🗓 Planejamento
 
@@ -55,7 +52,7 @@
 | # | Atividade | Status |
 | ---------------- | ---------------- |------------- |
 | 1 | Compreender a Competição SS2D - Leitura de TDP's |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
-| 2 | Instalção do Servidor e do Monitor |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
+| 2 | Instalação do Servidor e do Monitor |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
 | 3 | Instalação dos Times Base e Rodar Partidas |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
 | 4 | Realizar o controle Manual de um Dummy |<img alt="Finalizado" src="https://img.shields.io/badge/-Finalizado-brightgreen">|
 | 5 | Criação de um Time Com Apenas um Cliente | <img alt="Em Andamento" src="https://img.shields.io/badge/-Em%20andamento-orange">|
@@ -63,7 +60,7 @@
     
 
 ## 🛠 Instalando o Servidor e Monitor
-- Recomenda-se usar ubuntu 16.04 ou posterior para rodar os programas pois é possivel instalar todos os requerimentos com os seguintes comandos:
+- Recomenda-se usar o Ubuntu 16.04 ou uma versão posterior para rodar os programas da modalidade. No Ubuntu, é possível instalar todos os requisitos de ambiente com os seguintes comandos:
 ```
 sudo apt update
 sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
@@ -72,9 +69,9 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
 
 - Servidor:
 
-    Antes de continuar é recomendado criar uma pasta /servidor/ onde você salvará tanto o servidor quanto o monitor dentro
+    Antes de continuar é recomendado criar uma pasta /servidor/ , dentro da qual você salvará tanto o servidor quanto o monitor.
 
-    No github do servidor https://github.com/rcsoccersim/rcssserver/releases baixe a versão mais recente do rcssserver-x.x.x.tar.gz substituindo "x" pelo numero da    versão e rode os seguintes códigos substituindo o nome do arquivo para o correto:
+    No [Github do servidor](https://github.com/rcsoccersim/rcssserver/releases), baixe a versão mais recente do _rcssserver-x.x.x.tar.gz_,  substituindo os "x" pelo número da versão. Em seguida, execute os seguintes comandos no terminal, substituindo o nome do arquivo para que fique igual à versão instalada:
     ```
     tar xzvfp rcssserver-x.x.x.tar.gz
     cd rcssserver-x.x.x
@@ -82,11 +79,11 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
     make
     ```
 
-    Agora quando você quiser pode rodar o binario ./rcssserver dentro do /src/ do servidor para fazer o servidor funcionar, porem mesmo rodando, não vai ser possivel ver oque está acontecendo pois o monitor ainda não está instalado
+    A partir de agora, você poderá executar o binário ./rcssserver dentro do /src/ do servidor para fazer o servidor funcionar. Porém, mesmo executando esse comando, não será possivel ver o campo nem qualquer jogo que for executado, pois o monitor ainda não está instalado.
 
 - Monitor:
 
-    Dentro da pasta /servidor/ mencionada a cima baixe a versão mais recente do monitor https://github.com/rcsoccersim/rcssmonitor/releases e rode os seguintes códigos substituindo o nome do arquivo pelo nome correto:
+    Dentro da pasta /servidor/ que você criou, baixe [a versão mais recente do monitor](https://github.com/rcsoccersim/rcssmonitor/releases) e execute os seguintes códigos, substituindo o nome do arquivo pelo nome correto:
     ```
     tar xzvfp rcssmonitor-x.x.x.tar.gz
     cd rcssmonitor-x.x.x
@@ -94,16 +91,21 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
     make
     ```
 
-    Agora você pode rodar o binario ./rcssmonitor dentro do /src/ do monitor para fazer o monitor funcionar.
+    Agora você pode rodar o binário ./rcssmonitor dentro do /src/ do monitor para fazer o monitor funcionar.
 
-    Lembre-se de rodar o servidor sempre antes do monitor. você saberá que tudo está funcionando se os jogadores aparecerem no monitor na parte superior logo fora da quadra como na imagem:
+    Lembre-se de rodar o servidor sempre antes do monitor. Você saberá que tudo está funcionando se os jogadores aparecerem no monitor na parte superior, logo fora da quadra, como na imagem:
 
 
 
 ## 📼 Rodando um Jogo Gravado
--
--
--
+A execução de um jogo gravado é um processo muito simples que permite testar se o monitor está funcionando corretamente.
+- Em primeiro lugar, baixe o replay do jogo gravado. Existe uma coleção de replays de todas as partidas da Robocup desde 2004 no [site de arquivo da competição](http://archive.robocup.info/Soccer/Simulation/2D/replays/RoboCup/). É recomendado que você crie um diretório para salvar os replays do SS2D.
+- Depois disso, copie o caminho do replay baixado na sua máquina. Para isso, você pode clicar com o botão direito no arquivo baixado e selecionar "propriedades". Nas propriedades está exibida a "pasta-mãe" do arquivo. Copie essa pasta-mãe para sua área de transferência.
+- Na pasta /src/ do rcssmonitor, execute o comando: 
+	./rcssmonitor pastacopiada/nomedoreplay
+Substituindo o "pastacopiada" pelo endereço que você copiou e "nomedoreplay" pelo nome do arquivo de replay que você baixou. 
+- Pronto! Se tudo tiver dado certo, irá aparecer uma janela do rcssmonitor com botões de controle no canto superior da tela, como pausar e iniciar, mudar a velocidade e ir para o próximo frame.
+
 
 ## 🛠 Instalando as Equipes
 - A princípio estão sendo usadas as seguintes equipes como base:
@@ -149,50 +151,50 @@ sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev lib
         ```
 
 ## 🎮 Primeira Partida
-depois que tudo estiver instalado e você quiser assistir a primeira partida você deve seguir essa sequencia de passos para simular seu primeiro jogo:
+Depois que tudo estiver instalado, você deve seguir essa sequência de passos para simular sua primeira partida:
 
-- abrir 4 janelas de terminal
-- no 1° terminal entrar na pasta /servidor/rcssserver-x.x.x/src/ e rodar ./rcssserver
-- no 2° terminal entrar na pasta /servidor/rcssmonitor-x.x.x/src/ e rodar ./rcssmonitor
-- no 3° terminal rodar o ./start.sh do primeiro time
-- no 4° terminal rodar o ./start.sh do segundo time
-- dentro da janela que o monitor abriu clicar em referee e depois kickoff (ou ctrl + k)
+- Abra 4 janelas de terminal.
+- No 1° terminal, entre na pasta /servidor/rcssserver-x.x.x/src/ e rode ./rcssserver
+- No 2° terminal, entre na pasta /servidor/rcssmonitor-x.x.x/src/ e rode ./rcssmonitor
+- No 3° terminal, rode o ./start.sh do primeiro time;
+- No 4° terminal, rode o ./start.sh do segundo time;
+- Dentro da janela que o monitor abriu, libere o kickoff com o comando Ctrl-K.
 
-caso algo der errado lembrese de esperar alguns segundos entre cada passo 
+Espere alguns segundos entre cada passo para diminuir a chance de erros.
 
 ## 📖 Aprendendo Mais
-softwares oficiais:
-- https://github.com/rcsoccersim/rcssserver
-- https://github.com/rcsoccersim/rcssmonitor
+Softwares oficiais:
+	[Servidor](https://github.com/rcsoccersim/rcssserver)
+	[Monitor](https://github.com/rcsoccersim/rcssmonitor)
 
-wikipedia:
-- https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League
+[Site oficial](https://robocup.org/leagues/23)
+[Página da Wikipedia](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League)
 
-Replay:
-- https://archive.robocup.info/Soccer/Simulation/2D/replays/
+[Arquivo dos Replays](https://archive.robocup.info/Soccer/Simulation/2D/replays/)
 
-TDP:
-- https://tdp.robocup.org/tdp/
-- http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/
+TDPs:
+	[tdp.robocup](https://tdp.robocup.org/tdp/)
+	[Arquivo de TDPs](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/)
 
-Docs:
-- https://rcsoccersim.readthedocs.io/en/latest/
-- https://github.com/herodrigues/robocup2d-tutorial
-- https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw
+Tutoriais:
+	[Documentação Oficial](https://rcsoccersim.readthedocs.io/en/latest/)
+	[Tutorial não-oficial](https://github.com/herodrigues/robocup2d-tutorial)
+	[Tutorial de como fazer o binário do time](https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw)
 
 Equipes:
-- https://robocin.com.br/publicacoes.html
-- https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome
+	[RoboCIn](https://robocin.com.br/publicacoes.html)
+	[ITAndroids](https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome)
 
-Base team:
-- https://github.com/helios-base/helios-base
-- http://www.prokopenko.net/gliders2d.html
+Times base:
+	[HELIOS](https://github.com/helios-base/helios-base)
+	[CYRUS](https://github.com/Cyrus2D/Cyrus2DBase)
+	[Gliders](http://www.prokopenko.net/gliders2d.html)
 
-inteligencia artificial:
-- https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf
+Leituras sobre Inteligência Artificial:
+	- [Análise sobre aprendizado de reforço na SS2D](https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf)
 
 ## 🗂 Acesso ao Projeto
-- Para ter acesso ao projeto vá na pasta disponibilizada Equipe-RAS, caso o que procura não esteja presente neste Git, entre em contanto com a equipe. Estamos a sua disposição.
+- Para ter acesso ao projeto vá na pasta disponibilizada Equipe-RAS. Caso o que procura não esteja presente neste Git, entre em contato com a equipe. Estamos à sua disposição.
 
 ## ‍💻 Criando um Binário
 - Para fazer um binário crie, em primeiro lugar, uma cópia da pasta _src_ do seu time. Essa cópia será transformada no "Binário", ou seja, a pasta com o mínimo necessário de arquivos para fazer um time funcionar. 
@@ -224,6 +226,8 @@ rcssclient > /dev/null 2>&1
 ```
 
 ## 🧑‍🎓 Equipe
+- Nossa equipe é composta por graduandos do segundo ao quinto período dos cursos de Ciência da Computação e Engenharia Elétrica da Universidade Federal de Campina Grande(UFCG), todos sendo voluntários do Capítulo Estudantil da Sociedade de Robótica e Automação (IEEE RAS UFCG).
+
 | [<img src="https://avatars.githubusercontent.com/u/79481939?v=4" width=115><br><sub>Guilherme Toledo</sub>](https://github.com/drawnator) |  [<img src="https://avatars.githubusercontent.com/u/25869603?v=4" width=115><br><sub>Lucas Melo</sub>](https://github.com/TryhardCC) |  [<img src="https://avatars.githubusercontent.com/u/57972059?v=4" width=115><br><sub>Samara Cardoso</sub>](https://github.com/SamaraLimaCardoso) |
 | :---: | :---: | :---: |
 
