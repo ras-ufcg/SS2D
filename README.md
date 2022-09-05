@@ -7,11 +7,10 @@
 
 | Nosso Projeto | Primeiros Passos |Aprendendo Mais|
 | ---------------- | ---------------- |------------- |
-| 🤖[**SS2D**](#-competição-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |📖[**Material Extra**](#-aprendendo-mais) |
-| 🧑‍🎓[**Equipe**](#-equipe) |📼[**Assistir um Jogo Gravado**](#-rodando-um-jogo-gravado) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
-| 📄[**Metodologia**](#-metodologia) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |💻[**Criando um Binário**](#-criando-um-binário) |
-| 🗓[**Planejamento**](#-planejamento) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) | 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
-
+| 🤖[**SS2D**](#-competição-ss2d) |🛠[**Instalação Server+Monitor**](#-instalando-o-servidor-e-monitor) |🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto) |
+| 🧑‍🎓[**Equipe**](#-equipe) |📼[**Assistir um Jogo Gravado**](#-rodando-um-jogo-gravado) |💻[**Criando um Binário**](#-criando-um-binário) |
+| 📄[**Metodologia**](#-metodologia) |🛠[**Instalação de Equipes**](#-instalando-as-equipes) |🕹️[**Modo de Controle Manual**](#-controlando-um-robô) |
+| 🗓[**Planejamento**](#-planejamento) |🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) | 📖[**Material Extra**](#-aprendendo-mais) |
 
 <!---## Sumário
 - Sobre o Projeto
@@ -24,10 +23,10 @@
     - 🛠[**Instalação de Equipes**](#-instalando-as-equipes)
     - 🎮[**Rodando o Primeiro Jogo**](#-primeira-partida) 
 - Apredendo Mais
-    - 📖[**Material Extra**](#-aprender-mais)
     - 🗂️ [**Acesso ao Projeto**](#-acesso-ao-projeto)
     - 💻[**Criando um Binário**](#-criando-um-binário)
-    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) -->
+    - 🕹️[**Modo de Controle Manual**](#-controlando-um-robô) 
+    - 📖[**Material Extra**](#-aprender-mais) -->
 ## 🤖 Competição SS2D?
 - A Robocup é uma competição anual internacional de robótica estabelecida em 1996, que objetiva promover pesquisas de robótica e de inteligência artificial através de torneios de várias modalidades.
 - A [SS2D](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League) é a modalidade da Robocup que aborda o futebol simulado por computador num espaço 2D. 
@@ -162,37 +161,6 @@ Depois que tudo estiver instalado, você deve seguir essa sequência de passos p
 
 Espere alguns segundos entre cada passo para diminuir a chance de erros.
 
-## 📖 Aprendendo Mais
-Softwares oficiais:
-- [Servidor](https://github.com/rcsoccersim/rcssserver)
-- [Monitor](https://github.com/rcsoccersim/rcssmonitor)
-
-[Site oficial](https://robocup.org/leagues/23)
-[Página da Wikipedia](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League)
-
-[Arquivo dos Replays](https://archive.robocup.info/Soccer/Simulation/2D/replays/)
-
-TDPs:
-- [tdp.robocup](https://tdp.robocup.org/tdp/)
-- [Arquivo de TDPs](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/)
-
-Tutoriais:
-- [Documentação Oficial](https://rcsoccersim.readthedocs.io/en/latest/)
-- [Tutorial não-oficial](https://github.com/herodrigues/robocup2d-tutorial)
-- [Tutorial de como fazer o binário do time](https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw)
-
-Equipes:
-- [RoboCIn](https://robocin.com.br/publicacoes.html)
-- [ITAndroids](https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome)
-
-Times base:
-- [HELIOS](https://github.com/helios-base/helios-base)
-- [CYRUS](https://github.com/Cyrus2D/Cyrus2DBase)
-- [Gliders](http://www.prokopenko.net/gliders2d.html)
-
-Leituras sobre Inteligência Artificial:
-- [Análise sobre aprendizado de reforço na SS2D](https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf)
-
 ## 🗂 Acesso ao Projeto
 - Para ter acesso ao projeto vá na pasta disponibilizada Equipe-RAS. Caso o que procura não esteja presente neste Git, entre em contato com a equipe. Estamos à sua disposição.
 
@@ -224,6 +192,37 @@ ou
 ```
 rcssclient > /dev/null 2>&1
 ```
+
+## 📖 Aprendendo Mais
+Softwares oficiais:
+- [Servidor](https://github.com/rcsoccersim/rcssserver)
+- [Monitor](https://github.com/rcsoccersim/rcssmonitor)
+
+[Site oficial](https://robocup.org/leagues/23)
+[Página da Wikipedia](https://en.wikipedia.org/wiki/RoboCup_2D_Soccer_Simulation_League)
+
+[Arquivo dos Replays](https://archive.robocup.info/Soccer/Simulation/2D/replays/)
+
+TDPs:
+- [tdp.robocup](https://tdp.robocup.org/tdp/)
+- [Arquivo de TDPs](http://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/)
+
+Tutoriais:
+- [Documentação Oficial](https://rcsoccersim.readthedocs.io/en/latest/)
+- [Tutorial não-oficial](https://github.com/herodrigues/robocup2d-tutorial)
+- [Tutorial de como fazer o binário do time](https://www.youtube.com/watch?v=eQwX2p5CNFI&list=PLFy1-QjBONFL_yjjOOh6brRJgZMfLyBbw)
+
+Equipes:
+- [RoboCIn](https://robocin.com.br/publicacoes.html)
+- [ITAndroids](https://bitbucket.org/itandroids/itandroids-soccer2d/wiki/_oldHome)
+
+Times base:
+- [HELIOS](https://github.com/helios-base/helios-base)
+- [CYRUS](https://github.com/Cyrus2D/Cyrus2DBase)
+- [Gliders](http://www.prokopenko.net/gliders2d.html)
+
+Leituras sobre Inteligência Artificial:
+- [Análise sobre aprendizado de reforço na SS2D](https://www.cin.ufpe.br/~tg/2019-2/TG_EC/Evaluating_Reinforcement_Learning_on_Robocup_Soccer_Simulation_2D%20.pdf)
 
 ## 🧑‍🎓 Equipe
 - Nossa equipe é composta por graduandos do segundo ao quinto período dos cursos de Ciência da Computação e Engenharia Elétrica da Universidade Federal de Campina Grande(UFCG), todos sendo voluntários do Capítulo Estudantil da Sociedade de Robótica e Automação (IEEE RAS UFCG).
