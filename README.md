@@ -207,7 +207,12 @@ rm *.o *.h *.cpp *.in *.am
 - Com isso, o seu binário está pronto. Para inserir o time no jogo é só usar a função _.\\start.sh_ .
 
 ## 🕹 Controlando um Robô
--
+- Para iniciar o simulador (servidor e monitor), digite:
+
+```
+rcsoccersim
+```
+
 -
 -
 
