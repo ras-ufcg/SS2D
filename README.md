@@ -193,6 +193,29 @@ ou
 rcssclient > /dev/null 2>&1
 ```
 
+## ‍🤖 Dummy
+- um dummy e um player default que não faz nenhuma ação. a utilidade dele está em aprender qual parte do programa faz oque enquanto edita ele, por isso essa é uma parte principal para fazer um jogador proprio
+- a primeira coisa feita, no caminho de criar o dummy é encontrar onde ele faz jogadas, essa parte se dá dentro de /src/chain_action que tem todos os programas para fazer atividades planejadas, dentro dessa pasta existe o action_generator.h que faz a base para a chamada de ações em conjunto de cada jogador.
+- ao entrar nela é possivel transformar essa parte do código em comentário na linha 117, e assim o jogador não conseguirá planejar ações.
+```
+(*g)->generate( result, state, wm, path );
+``` 
+
+- o proximo passo é faze-lo parar de se movimentar, todo o movimento basico de um player é controlado dentro de /src/bhv_basic_move.cpp onde na linha 93 é chamado uma função que determina para que coordenadas um jogador vai se mover:
+```
+const Vector2D target_point = Strategy::i().getPosition( wm.self().unum() );
+```
+- transformar em comentario não funciona nesse caso, pois isso quebra outras chamadas de funções mais a frente no programa, portanto existe algumas opções:
+1. trocar tudo depois do "=" por ```Vector2D(1.0,1.0);``` os numeros sendo x e y respectivamente, para todos os jogadores irem para o mesmo lugar
+2. fazer a mesma coisa da linha de cima porem usando ```wm.self().unum();``` para verificar o numero de jogador e fazer cada um ir para um lugar diferente
+3. trocar a parte depois do "=" por ```Vector2D(wm.self().pos().x,wm.self().pos().y);```
+
+- tambem lembre-se de transformar em comentario a linha 87 desse arquivo para que o jogador não tente roubar a bola de um oponente
+
+com essas feitas volte para a pasta principal e rode o comando ```make``` para recompilar o time, isso pode demorar um tempo, lembre-se de fazer isso após cada moduficação do código.
+
+dica: modificar a linha 249 do arquivo makefile na pasta principal te permite adicionar novas bibliotecas durante a compilação do time que você pode importar em algum código
+
 ## 📖 Aprendendo Mais
 Softwares oficiais:
 - [Servidor](https://github.com/rcsoccersim/rcssserver)
